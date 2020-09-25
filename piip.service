@@ -3,6 +3,7 @@ After=network.service
 
 [Service]
 ExecStart=/usr/local/bin/piip.sh
+EnvironmentFile=/etc/piip/piip.conf
 
 [Install]
 WantedBy=default.target
