@@ -10,7 +10,7 @@ https://slack.com/apps/A0F7XDUAZ-incoming-webhooks?next_id=0
 
 Update `piip.conf`.
 
-- `SLACK_WEBHOOK_IP` = Slack webhook url.
+- `SLACK_WEBHOOK_IP` = Slack Webhook URL.
 - `SLACK_USERNAME_IP` = The username from Raspberry (ubuntu or redis or postgres or pi, etc).
 
 https://help.ubuntu.com/community/EnvironmentVariables (System-wide environment variables)
@@ -30,5 +30,8 @@ $ sudo chmod 664 /etc/systemd/system/piip.service
 ```bash
 $ sudo systemctl daemon-reload
 $ sudo systemctl enable piip.service
-
 ```
+
+Result:
+
+![img]https://i.imgur.com/6D3Jh2o.png[/img]
