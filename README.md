@@ -19,8 +19,6 @@ Update `piip.conf`.
 - `SLACK_WEBHOOK_IP` = Slack Webhook URL.
 - `SLACK_USERNAME_IP` = The username from Raspberry (ubuntu or redis or postgres or pi, etc).
 
-https://help.ubuntu.com/community/EnvironmentVariables (System-wide environment variables)
-
 ```bash
 $ sudo mkdir /etc/piip
 $ sudo cp ./piip.conf /etc/piip/piip.conf
