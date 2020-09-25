@@ -1,5 +1,7 @@
 # pi-slack-ip
 
+Send Raspberry PI ip to Slack Channel.
+
 ## Instructions
 
 Create a Slack webhook url.
@@ -14,9 +16,10 @@ Update `piip.conf`.
 https://help.ubuntu.com/community/EnvironmentVariables (System-wide environment variables)
 
 ```bash
+$ sudo mkdir /etc/piip
+$ sudo cp ./piip.conf /etc/piip/piip.conf
 $ sudo cp ./piip.sh /usr/local/bin/piip.sh
 $ sudo cp ./piip.service /etc/systemd/system/piip.service
-$ sudo cp ./piip.conf /etc/piip/piip.conf
 ```
 
 ```bash
