@@ -4,9 +4,15 @@ Send Raspberry PI ip to Slack Channel.
 
 ## Instructions
 
-Create a Slack webhook url.
+Create a Slack Webhook URL.
 
 https://slack.com/apps/A0F7XDUAZ-incoming-webhooks?next_id=0
+
+```bash
+$ cd ~
+$ git clone https://github.com/paulomcnally/pi-slack-ip.git
+$ cd pi-slack-ip
+```
 
 Update `piip.conf`.
 
