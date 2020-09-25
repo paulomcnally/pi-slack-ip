@@ -32,6 +32,6 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl enable piip.service
 ```
 
-Result:
+**Example**:
 
-![img]https://i.imgur.com/6D3Jh2o.png[/img]
+![Imgur](https://i.imgur.com/6D3Jh2o.png)
